@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Importacion de JQuery -->
     <script src="js/lib/jquery-3.7.1.min.js"></script>
 
+    <!-- Importacion de bootstrap -->
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css">
     <style>
         .textoVerde{
             color: green;
@@ -23,17 +26,27 @@
     <title>Document</title>
 </head>
 <body>
-    <ul>
-        <li>Hola 1</li>
-        <li>Hola 2</li>
-        <li>Hola 3</li>
-    </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Leccion 01</h1>
+                <hr>
 
-    <ul>                                                                                                     
-        <li>Hola 1</li>
-        <li>Hola 2</li>
-        <li>Hola 3</li>
-    </ul>
+                <ul>
+                    <li>Hola 1</li>
+                    <li>Hola 2</li>
+                    <li>Hola 3</li>
+                </ul>
+
+                <ul>                                                                                                     
+                    <li>Hola 1</li>
+                    <li>Hola 2</li>
+                    <li>Hola 3</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
     <script>
         //                  //Toma todos los elementos de ul y les pone el color rojo.
         // jQuery('ul').css('color', 'red');
